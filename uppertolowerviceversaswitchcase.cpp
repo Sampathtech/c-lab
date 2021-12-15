@@ -16,8 +16,10 @@ main()
 					break;
 				case 0:switch(c>=0 && c<=9)
 				{
+						case 1:
+							printf("the character entered is a number"); break;
 						default:
-						printf("the character entered is a number"); break;
+							printf("entered character is a special symbol"); break;	
 				}
 				
 									}
