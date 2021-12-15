@@ -12,5 +12,7 @@ main()
 		case 0:
 			c = c-32;
 			printf("the character converted %c",c); break;
+		default:
+			printf("the character entered is a number"); break;
 	}
 }
